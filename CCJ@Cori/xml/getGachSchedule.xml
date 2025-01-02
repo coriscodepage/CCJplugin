@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="shift-jis"?>
+<system status="0">
+    <schedule>
+            <gachaID __type="str">rain</gachaID>
+            <gachaType __type="str">1</gachaType>
+            <startTime __type="s64">1686186000000</startTime>
+            <endTime __type="s64">1688605200000</endTime>
+            <omake __type="s32">600</omake>
+            <omakeitem>
+                <baseid __type="str">ABIL00000171</baseid>
+            </omakeitem>
+            <omakeitem>
+                <baseid __type="str">FRAG00000011</baseid>
+            </omakeitem>
+            <omakeitem>
+                <baseid __type="str">GEAR00000001</baseid>
+            </omakeitem>
+    </schedule>
+    <schedule>
+            <gachaID __type="str">old6</gachaID>
+            <gachaType __type="str">2</gachaType>
+            <startTime __type="s64">1686186000000</startTime>
+            <endTime __type="s64">1688605200000</endTime>
+            <omake __type="s32">600</omake>
+            <omakeitem>
+                <baseid __type="str">ABIL00000108</baseid>
+            </omakeitem>
+            <omakeitem>
+                <baseid __type="str">FRAG00000010</baseid>
+            </omakeitem>
+            <omakeitem>
+                <baseid __type="str">GEAR00000001</baseid>
+            </omakeitem>
+    </schedule>
+</system>
