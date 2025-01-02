@@ -1,20 +1,6 @@
 <system status="0">
 	<sdata>
 		<json>
-			<sysdataid __type="s64">163</sysdataid>
-			<sysdatatype __type="str">eventdata</sysdatatype>
-			<id_type __type="str">any</id_type>
-			<id __type="str">any</id>
-			<slotid __type="str">2306Wedding</slotid>
-			<starttime __type="s64">1687395600000</starttime>
-			<endtime __type="s64">1688605200000</endtime>
-			<jsondata __type="str">{"firstPrice": [27, 63, 90, 63, 90, 90, 99, 100], "firstReward": ["OTHR00001701", "SHOE00005001", "BODY00005301", "HEAD00004901", "WEAP00002401", "SKIL00000022", "BGMU00001101", "GEAR00000001"], "secondPrice": [27, 63, 90, 63, 90, 90, 20, 100], "secondReward": ["OTHR00001702", "SHOE00005002", "BODY00005302", "HEAD00004902", "WEAP00002402", "SKIL00000022", "SHOG00000633", "GEAR00000001"], "firstMaxRemain": [1, 1, 1, 1, 1, 4, 1, -1], "period_message": "７/６ ９:５９まで実施中！", "secondMaxRemain": [1, 1, 1, 1, 1, 3, 1, -1]}</jsondata>
-			<data_ev __type="s32">0</data_ev>
-			<updatetime __type="s64">1685499241458</updatetime>
-			<version __type="s32">6</version>
-			<targettime __type="s64">1688424979130</targettime>
-		</json>
-		<json>
 			<sysdataid __type="s64">122</sysdataid>
 			<sysdatatype __type="str">game_config</sysdatatype>
 			<id_type __type="str">any</id_type>

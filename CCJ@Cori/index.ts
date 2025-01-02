@@ -1,4 +1,7 @@
-import { pcbBoot, getRankUpData, getGachaSchedule, getRanking, dataLoad} from './handlers/hardcode';
+import { pcbBoot, getRankUpData, getGachaSchedule, getRanking, dataLoad } from './handlers/hardcode';
+import { saveResult } from './handlers/misc'
+import { matchMake } from './handlers/matchmaking'
+import { checkIn, checkOut, saveUserdata, getUserData} from './handlers/player'
 
 export function register() {
  
@@ -7,13 +10,19 @@ export function register() {
   R.Contributor('Max');
   R.Contributor('OLEG');
   R.Contributor('wrshooter');
+  R.Contributor('CORI');
 
   R.Route('system.pcbBoot', pcbBoot);
   R.Route('system.dataLoad', dataLoad);
   R.Route('game.getRankUpData', getRankUpData);
   R.Route('system.getGachaSchedule', getGachaSchedule);
   R.Route('player.getRanking', getRanking);
-
+  R.Route('game.matchMake', matchMake);
+  R.Route('game.saveResult', saveResult);
+  R.Route('player.checkIn', checkIn);
+  R.Route('player.checkOut', checkOut);
+  R.Route('player.dataSave', saveUserdata);
+  R.Route('player.dataLoad', getUserData);
   R.Unhandled();
 
   console.log('Plugin Registered');

@@ -1,6 +1,9 @@
+import util = require('util');
 
 export const pcbBoot: EPR = async (info, data, send) => {
-
+  //console.log(util.inspect(info, {showHidden: false, depth: null, colors: true}));
+  //console.log(util.inspect(data, {showHidden: false, depth: null, colors: true}));
+  
   send.xmlFile('xml/pcbBoot.xml');
 
 };
